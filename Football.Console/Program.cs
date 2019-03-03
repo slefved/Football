@@ -1,6 +1,4 @@
-﻿using Football.Domain.Entity;
-using Football.Domain.Repository;
-using System;
+﻿using Football.Domain.Repository;
 
 namespace Football.Console
 {
@@ -13,10 +11,6 @@ namespace Football.Console
             {
                 System.Console.WriteLine(item.Name);
             }
-
-            //System.Console.WriteLine(repo.Get(9).Name);
         }
-        
     }
-    
 }

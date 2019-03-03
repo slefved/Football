@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Football.WebDevExpress.Pages {
+namespace Football.WebDevExpress.Page {
     
     
     public partial class GridTest {

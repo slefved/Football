@@ -1,8 +1,8 @@
-﻿using Football.WebDevExpress.ModelViews;
+﻿using Football.WebDevExpress.ModelView;
 using System;
 using System.Linq;
 
-namespace Football.WebDevExpress.Pages
+namespace Football.WebDevExpress.Page
 {
     public partial class GridTest : System.Web.UI.Page
     {
@@ -20,6 +20,11 @@ namespace Football.WebDevExpress.Pages
 
             gv.DataSource = playerList;
             gv.DataBind();
+        }
+
+        protected void gv_DataBinding(object sender, EventArgs e)
+        {
+            
         }
     }
 }

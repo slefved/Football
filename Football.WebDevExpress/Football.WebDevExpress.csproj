@@ -105,11 +105,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\ButtonConfirmation.aspx" />
     <Content Include="Pages\GridTest.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ModelViews\PlayerModelView.cs" />
+    <Compile Include="Pages\ButtonConfirmation.aspx.cs">
+      <DependentUpon>ButtonConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ButtonConfirmation.aspx.designer.cs">
+      <DependentUpon>ButtonConfirmation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\GridTest.aspx.cs">
       <DependentUpon>GridTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

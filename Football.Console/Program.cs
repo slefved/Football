@@ -2,6 +2,7 @@
 
 namespace Football.Console
 {
+    //wot
     class Program
     {
         static void Main(string[] args)

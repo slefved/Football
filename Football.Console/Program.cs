@@ -2,7 +2,6 @@
 
 namespace Football.Console
 {
-    //wot
     class Program
     {
         static void Main(string[] args)
@@ -11,10 +10,7 @@ namespace Football.Console
             foreach (var item in repo.GetByName("ma"))
             {
                 System.Console.WriteLine(item.Name);
-                //test lagi
                 System.Console.WriteLine("J");
-                //test from git
-                //test from local
             }
         }
     }

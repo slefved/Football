@@ -10,6 +10,7 @@ namespace Football.Console
             foreach (var item in repo.GetByName("ma"))
             {
                 System.Console.WriteLine(item.Name);
+                System.Console.WriteLine("J");
             }
         }
     }
